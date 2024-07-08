@@ -22,7 +22,7 @@ body{
     border-radius: 16px;
     background-blend-mode: overlay;
     border-radius: 16px;
-background-color:rgba(0, 0, 0, 0.412);
+background-color:rgba(0, 0, 0, 0.609);
 }
 .banner-content p,h1{
    color: white;
@@ -32,18 +32,19 @@ background-color:rgba(0, 0, 0, 0.412);
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 600px;
     
 }
 .banner-content h1{
-    font-size: 70px;
-    width: 632px;
-    height: 190px;
+    font-size: 72px;
+    width: 900px;
+    /* height: 190px; */
     text-align: center;
 
 }
 .banner-content p{
-    font-size: 30px;
-font-weight: 259px;
-height: 40px;
-text-align: center;
+    font-size: 32px;
+font-weight: 400px;
+/* height: 40px; */
+/* text-align: center; */
 }
