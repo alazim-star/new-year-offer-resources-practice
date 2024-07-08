@@ -22,7 +22,8 @@ body{
     border-radius: 16px;
     background-blend-mode: overlay;
     border-radius: 16px;
-background-color:rgba(0, 0, 0, 0.609);
+background-color:rgba(0, 0, 0, 0.429);
+/* border: 2px solid red; */
 }
 .banner-content p,h1{
    color: white;
@@ -33,15 +34,24 @@ background-color:rgba(0, 0, 0, 0.609);
     align-items: center;
     justify-content: center;
     height: 600px;
+    /* border: 2px solid red; */
  }
 .banner-content h1{
     font-size: 72px;
     width: 900px;
    text-align: center;
+   /* border: 2px solid red; */
+   margin-top:60px;
+   margin-bottom: 150px;
 }
 .banner-content p{
    font-size: 32px;
    font-weight: 400px;
+   /* border: 2px solid red; */
+   margin-bottom: 2px;
+   margin-top: 50px ;
+   padding: bottom 5px;
+   
 }
 /* second section style start */
 .second-container{
@@ -49,38 +59,108 @@ background-color:rgba(0, 0, 0, 0.609);
    height: 806px;
    margin: 0 auto;
    margin-top: 90px;
+   /* border: 2px solid red; */
 }
 .second-content{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   /* border: 2px solid red; */
+   
 }
 .second-content h1{
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 88px;
-    font-weight: 700;
+    font-weight: 700px;
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .second-content p{
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 500px;
+  /* border: 2px solid red; */
+ margin-top: 15px;
+ margin-bottom: 15px;
  }
 .second-content h3{
-    color: rgb(7, 2, 17);
+color: rgb(7, 2, 17);
 font-family: Inter;
 font-size: 48px;
 font-weight: 700;
+/* border: 2px solid red; */
+margin-top: 15px;
+margin-bottom: 15px;
  }
  .image-container{
     width: 802.9px;
     height: 500px;
+    /* border: 2px solid red; */
+    margin-top:15px;
+    margin-bottom: 15px;
  }
  .image-container img{
  width:100%;
 height:100%;
+/* border: 2px solid red; */
  }
+ /* <!-- Make midnight layout using flax --> */
+ .Midnight-party-container{
+width: 1320px;
+height: 600px;
+/* border: 2px solid rgb(255, 68, 0); */
+margin: 0 auto;
+display:flex;
+background-image:url(../images/Vectorrr.png) ;
+background-position: center;
+background-size: cover;
+background-repeat:no-repeat;
 
-   
+ }
+ .laft-side{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px ;
+  }
+ .right-side{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid rgb(240, 41, 203); */
+    background-image:url(../images/Group\ 70.png) ;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+ .laft-side p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .laft-side h2{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+ }
+ #midnight-btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .right-side{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+ }
